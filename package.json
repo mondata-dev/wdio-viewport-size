@@ -1,0 +1,34 @@
+{
+  "name": "wdio-viewport-size",
+  "version": "1.0.0",
+  "description": "Port of setViewportSize to webdriverio 5",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .js,.ts",
+    "prettier-check": "prettier --check '**/*.js' '**/*.ts' '**/*.json' '**/*.md'",
+    "prettier": "prettier --write '**/*.js' '**/*.ts' '**/*.json' '**/*.md'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mondata-dev/wdio-viewport-size"
+  },
+  "keywords": [
+    "webdriverio",
+    "wdio",
+    "wdio-service",
+    "wdio-plugin"
+  ],
+  "author": "Mondata GmbH <david.poetzsch-heffter@mondata.de>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-wdio": "^5.13.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.3",
+    "webdriverio": "^5.22.3"
+  }
+}

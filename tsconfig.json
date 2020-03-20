@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "noImplicitAny": true,
+    "strict": true,
+    "module": "CommonJS",
+    "target": "es6",
+    "moduleResolution": "Node",
+    "types": ["node", "webdriverio"],
+    "outDir": "build",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true
+  },
+  "include": ["src/**/*.ts", "typings/*"],
+  "exclude": ["/node_modules/"]
+}

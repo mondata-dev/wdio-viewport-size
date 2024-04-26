@@ -26,7 +26,7 @@ exports.config = {
 
 ```typescript
 browser.getViewport(): Promise<{ width: number, height: number }>
-browser.setViewport(width: number, height: number): Promise<void>
+browser.setViewport(width: number, height: number, retries = 5): Promise<void>
 ```
 
 ## Example

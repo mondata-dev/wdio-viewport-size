@@ -1,6 +1,6 @@
 {
   "name": "wdio-viewport-size",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Port of setViewportSize to webdriverio 5",
   "main": "build/index.js",
   "scripts": {

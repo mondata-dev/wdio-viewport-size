@@ -6,12 +6,20 @@
     "module": "CommonJS",
     "target": "es6",
     "moduleResolution": "Node",
-    "types": ["node", "webdriverio"],
+    "types": [
+      "node",
+      "webdriverio/async"
+    ],
     "outDir": "build",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*.ts", "typings/*"],
-  "exclude": ["/node_modules/"]
+  "include": [
+    "src/**/*.ts",
+    "typings/*"
+  ],
+  "exclude": [
+    "/node_modules/"
+  ]
 }

@@ -6,6 +6,6 @@ declare namespace WebdriverIOAsync {
 
   interface Browser {
     getViewportSize(): Promise<ViewportSize>;
-    setViewportSize(width: number, height: number): Promise<void>;
+    setViewportSize(width: number, height: number, retries?: number): Promise<void>;
   }
 }

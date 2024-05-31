@@ -8,7 +8,8 @@
     "moduleResolution": "Node",
     "types": [
       "node",
-      "webdriverio/async"
+      "@wdio/globals/types",
+      "@wdio/cucumber-framework"
     ],
     "outDir": "build",
     "declaration": true,
@@ -17,8 +18,8 @@
     "esModuleInterop": true
   },
   "include": [
-    "src/**/*.ts",
-    "typings/*"
+    "typings/*.d.ts",
+    "src/**/*.ts"
   ],
   "exclude": [
     "/node_modules/"

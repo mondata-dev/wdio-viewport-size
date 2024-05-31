@@ -1,13 +1,13 @@
 {
   "name": "wdio-viewport-size",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Port of setViewportSize to webdriverio 5",
   "main": "build/index.js",
   "scripts": {
     "lint": "eslint . --ext .js,.ts",
     "prettier-check": "prettier --check '**/*.js' '**/*.ts' '**/*.json' '**/*.md'",
     "prettier": "prettier --write '**/*.js' '**/*.ts' '**/*.json' '**/*.md'",
-    "build": "tsc",
+    "build": "tsc && node ./scripts/postbuild.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "npm run build"
   },
